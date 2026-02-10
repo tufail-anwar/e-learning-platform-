@@ -72,11 +72,11 @@ li{
     text-transform: capitalize;
 }
 .section-common--subheading{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--heading-color);
 }
 .section-common--title{
-    font-size: 3rem;
+    font-size: 1.5rem;
     margin: 2rem 0 1rem 0;
 }
 .btn{
@@ -539,7 +539,7 @@ footer .grid{
  /* @media(max-width:810px){ */
  @media(width <= 1400px){
     html{
-        font-size: 56.25%;
+        font-size: 56.%;
         /* 1rem = 9px */
     }
 
