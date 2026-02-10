@@ -72,6 +72,7 @@ li{
     text-transform: capitalize;
 }
 .section-common--subheading{
+    font-size: 2rem;
     color: var(--heading-color);
 }
 .section-common--title{
@@ -223,7 +224,7 @@ main{
     background-color:whitesmoke ;
     width: 15rem;
     border-radius: 50%;
-transition: all .3s linear;
+    transition: all .3s linear;
 }
 .icon:hover > img{
    transform: rotate(360deg);
