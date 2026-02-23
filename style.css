@@ -12,11 +12,11 @@ h1,h2,h3,h4,h5,h6{
 }
 p,li,a{
     font-family: "Urbanist",sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     letter-spacing: .1rem;
     font-weight: 400;
     color: var(--para-color);
-    line-height: 1.5;
+    line-height: 1.6;
 }
 a{
     text-decoration: none;
@@ -448,13 +448,16 @@ main{
 .mb-3{
     margin-bottom: 3rem;
 }
-.label{
-    font-size: 1.4rem;
+label{
+    font-size: 1.8rem;
     display: block;
     text-transform: capitalize;
 }
 .contact-content .grid{
-    gap: 6rem;
+    gap:6rem;
+    & .mail{
+         gap:6rem;
+    }
 }
 input, textarea{
     width: 100%;
@@ -649,7 +652,10 @@ footer .grid{
         .grid-four--cols,.grid-three--cols{
             grid-template-columns: 1fr;
         }
-
+        p,li,a{
+            font-size: 1.4rem;
+            line-height: 1.4;
+        }
     .section-navbar .container{
         display: flex;
         flex-direction: column;
